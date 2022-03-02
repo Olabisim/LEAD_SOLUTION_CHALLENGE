@@ -43,7 +43,7 @@ const Calender = () => {
                                                 <span className='root_calender_3_2_span_1'>
                                                         <img src="../../../call.png" alt="call" />
                                                 </span>
-                                                <span>Swipe To Call</span>
+                                                <span className='root_calender_3_2_span_2'>Swipe To Call</span>
                                         </div>
                                 </div>
                         </div>

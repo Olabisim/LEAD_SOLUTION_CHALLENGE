@@ -6,6 +6,7 @@
 .root_calender_1{
         display: flex;
         justify-content: flex-end;    
+        margin-bottom: 20px;
 }
 
 .root_calender > div > span {
@@ -23,6 +24,7 @@
         display: flex;
 } */
 .root_calender .root_calender_1 > img {
+        margin-left: 20px;
         background: #FFFFFF;
         box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.05);
         border-radius: 6px;
@@ -73,11 +75,21 @@
         justify-content: space-between;
 }
 
+.root_calender_3_1 div > p{
+        margin-bottom: 0;
+        color: rgba(0, 0, 0, 0.5);
+}
+.root_calender_3_1 div > h2{
+        margin-top: 0;
+        font-weight: 500;
+}
+
 .root_calender_3_2 {
         background: #EDEFF3;
         border-radius: 27px;
         padding: 20px;
         padding: 5px;
+        margin-top: 15px;
 }
 .root_calender_3_2 div {
         display: flex;
@@ -93,10 +105,16 @@
 .root_calender_3_2_span_1 {
         
     color: rgba(0, 0, 0, 0.5);
-    padding-left: 30px;
 }
 .root_calender_3_1_2 {
         color: rgba(0, 0, 0, 0.6);
         font-weight: 500;
         font-size: 14px;
+}
+.root_calender_3_2_span_2 {
+        color: rgba(0, 0, 0, 0.5);
+        font-weight: 500;
+        font-size: 14px;
+        padding-left: 30px;
+    
 }
