@@ -1,4 +1,5 @@
 import React from 'react'
+import CalenderSetup from './calender_work/CalenderSetUp'
 
 
 const Calender = () => {
@@ -14,7 +15,9 @@ const Calender = () => {
                                 </div>
                         </div>
 
-                        <div></div>
+                        <div>
+                                <CalenderSetup />
+                        </div>
 
                         <div>
                                 <div>
