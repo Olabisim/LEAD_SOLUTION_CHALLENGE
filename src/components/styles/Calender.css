@@ -57,3 +57,46 @@
         width: 200px;
 }
 
+
+
+.root_calender_3 {
+        
+        background: #F9F9F9;
+        border-radius: 20px;
+        margin-top: 20px;
+        padding: 20px;
+
+}
+
+.root_calender_3_1 {
+        display: flex;
+        justify-content: space-between;
+}
+
+.root_calender_3_2 {
+        background: #EDEFF3;
+        border-radius: 27px;
+        padding: 20px;
+        padding: 5px;
+}
+.root_calender_3_2 div {
+        display: flex;
+        align-items: center;
+}
+
+.root_calender_3_2_span_1 {
+        
+    background: white;
+    padding: 10px 40px 10px 40px;
+    border-radius: 27px;
+}
+.root_calender_3_2_span_1 {
+        
+    color: rgba(0, 0, 0, 0.5);
+    padding-left: 30px;
+}
+.root_calender_3_1_2 {
+        color: rgba(0, 0, 0, 0.6);
+        font-weight: 500;
+        font-size: 14px;
+}

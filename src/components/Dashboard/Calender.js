@@ -26,20 +26,25 @@ const Calender = () => {
                                 <CalenderSetup />
                         </div>
 
-                        <div>
-                                <div>
+                        <div className='root_calender_3'>
+                                <div className='root_calender_3_1'>
                                         <div>
                                         
                                                 <p>Project Manager</p>
                                                 <h2>Client Meeting</h2>
                                         </div>
-                                        <div>
+                                        <div className='root_calender_3_1_2'>
                                                 <h3>+ NEW</h3>
                                                 
                                         </div>
                                 </div>
-                                <div>
-                                
+                                <div className='root_calender_3_2'>
+                                        <div>
+                                                <span className='root_calender_3_2_span_1'>
+                                                        <img src="../../../call.png" alt="call" />
+                                                </span>
+                                                <span>Swipe To Call</span>
+                                        </div>
                                 </div>
                         </div>
                 </div>
