@@ -1,17 +1,18 @@
 import React from 'react'
 import CalenderSetup from './calender_work/CalenderSetUp'
+import '../styles/Calender.css'
 
 
 const Calender = () => {
         return (
-                <div>
-                        <div>
+                <div className='root_calender'>
+                        <div className='root_calender_1'>
                         
                                 <img src="../../bell.png" alt="bell" />
                                 <img src="../../settings.png" alt="settings" />
                                 
                         </div>
-                        <div>
+                        <div className='root_calender_2'>
                                 <img src="../../avatar_makata_vespa_04.png" alt="avatar" />
                                 <div>
                                 

@@ -1,0 +1,59 @@
+.root_calender {
+        margin-top: 25px;
+        padding-left: 25px;
+        width: 400px;
+}
+.root_calender_1{
+        display: flex;
+        justify-content: flex-end;    
+}
+
+.root_calender > div > span {
+        background: #FFFFFF;
+        box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.05);
+        border-radius: 6px;
+}
+.root_calender_1_span {
+        
+        background: #FFFFFF;
+        box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.05);
+        border-radius: 6px;
+}
+/* .root_calender > div {
+        display: flex;
+} */
+.root_calender .root_calender_1 > img {
+        background: #FFFFFF;
+        box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.05);
+        border-radius: 6px;
+        padding: 20px;
+}
+
+
+.root_calender_2 {
+        background: #65A2B1;
+        border-radius: 20px;
+        display: flex;
+        color: white;
+        padding: 20px;
+}
+.root_calender_2 img {
+        z-index: 3;
+        margin: 0px 0 -40px 0;
+}
+.root_calender_2 div  {
+        display: flex;
+        flex-direction: column;
+        padding-left: 15px;
+        justify-content: center;
+}
+.root_calender_2 div h2 {
+        font-size: 19px;
+}
+.root_calender_2 div p {
+        font-size: 14px;
+        font-weight: bold;
+        margin: 0;
+        width: 200px;
+}
+
