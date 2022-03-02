@@ -45,21 +45,21 @@ const Inner1Project = () => {
                                 </div>
                                 <div className='root_inner1project_2_2'>
                                         <div className='last'>
-                                                <img src="../../../todo.png" />
+                                                <img src="../../../todo.png" alt="todo" />
                                                 <span>todo</span> 
                                                 
                                         </div>
 
                                         <div className='last'>
                                         
-                                                <img src="../../../completed.png" />
+                                        <img src="../../../inprogress.png" alt="completed" />
                                                 <span>inprogress</span> 
                                         
                                         </div>
                                         <div className='last'>
 
                                         
-                                                <img src="../../../inprogress.png" />
+                                        <img src="../../../completed.png" alt="inprogress" />
                                                 <span>completed</span> 
                                         
                                         </div>

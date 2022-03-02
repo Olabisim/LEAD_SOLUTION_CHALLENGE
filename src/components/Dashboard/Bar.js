@@ -26,6 +26,11 @@ const Bar = ({height}) => {
                                 &&
                                 <img src="../../highest.png" alt='bar'  />
                                 }
+                                {
+                                height === "sept"
+                                &&
+                                <img src="../../sept.png" alt='bar'  />
+                                }
                        </div> 
                 </>
         )

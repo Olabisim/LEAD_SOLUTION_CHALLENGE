@@ -36,7 +36,7 @@ const AllBars = () => {
                         <p>aug</p>
                 </div>
                 <div className="space_bar">
-                        <span><Bar height="low" /></span>
+                        <span><Bar height="sept" /></span>
                         <p>sept</p>
                 </div>
                 <div className="space_bar">

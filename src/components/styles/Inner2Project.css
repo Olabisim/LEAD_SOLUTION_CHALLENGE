@@ -1,0 +1,30 @@
+
+.root_Inner2Project {
+        /* padding-left: 25px; */
+}
+
+.root_Inner2Project_2 {
+        display: flex;
+        justify-content: space-between;
+}
+
+.root_Inner2Project_2 h2{    
+        font-size: 20px;
+}
+
+.root_Inner2Project_2_ul {
+        display: flex;
+
+}
+
+.root_Inner2Project_2_ul .active{
+        font-weight: bolder;
+
+}
+.root_Inner2Project_2_ul li{
+
+        display: flex;
+        
+        padding-right: 15px;
+
+}
