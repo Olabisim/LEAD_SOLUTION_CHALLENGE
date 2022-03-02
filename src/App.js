@@ -1,13 +1,13 @@
 // import logo from './logo.svg';
 import './App.css';
 import SideBar from './components/SideBar'
-import DashBoard from './components/DashBoard'
+import DashBoard from './components/Dashboard/Dashboard'
 
 
 
 function App() {
         return (
-                <div>
+                <div style={{display: 'flex'}}>
 
                         <SideBar />
                         <DashBoard />

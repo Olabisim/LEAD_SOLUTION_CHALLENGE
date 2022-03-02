@@ -44,7 +44,9 @@ const SideBar = () => {
                                         {menu_array.map((each, key) => (
                                                 <li>
                                                         <img src={each.pic} alt="button" />
-                                                        {each.name}
+                                                        <a href="#">
+                                                                {each.name}
+                                                        </a>
                                                         {
                                                                 key === 6 
                                                                 &&
@@ -70,10 +72,18 @@ const SideBar = () => {
                                 </ul>
 
                                 <div>
-                                        <img />
+                                        <img src="../../storage.png" alt="" />
+
                                         <h3>Buy More Storage</h3>
                                         <button>Buy Now</button>
                                 </div>
+                                <li>
+                                        <img src={four} alt="button" />
+                                        <a href="#">
+                                                Menu 7
+                                        </a>
+                                
+                                </li>
                         
                         </div>
 
