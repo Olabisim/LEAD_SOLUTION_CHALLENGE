@@ -1,23 +1,31 @@
 import React from 'react'
+import '../styles/nav.css'
 
 
 const Nav = () => {
         return (
-                <div style={{display: "flex"}}>
+                <div className="root_nav"> 
                         <h2>Dashboard</h2>
 
-                        <div>
-                        
-                                <input type="text" placeholder='Search here....' />
+                        <div className='inner_root_nav'>
+                                <div>
+                                
+                                        <span>
+                                                <img src='../../../search.png' alt="search" />
+                                        </span>
+                                        <input type="text" placeholder='Search here....' />
+                                </div>
                                 <span>+</span>
                         </div>
 
-                        <div>
-                                <img src="../../bell.png" alt="bell" />
-                                <img src="../../settings.png" alt="settings" />
-                        </div>
                 </div>
         )
 }
 
 export default Nav;
+
+
+// <div>
+// <img src="../../bell.png" alt="bell" />
+// <img src="../../settings.png" alt="settings" />
+// </div>
