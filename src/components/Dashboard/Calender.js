@@ -6,6 +6,12 @@ const Calender = () => {
         return (
                 <div>
                         <div>
+                        
+                                <img src="../../bell.png" alt="bell" />
+                                <img src="../../settings.png" alt="settings" />
+                                
+                        </div>
+                        <div>
                                 <img src="../../avatar_makata_vespa_04.png" alt="avatar" />
                                 <div>
                                 

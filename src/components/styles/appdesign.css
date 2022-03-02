@@ -1,0 +1,27 @@
+.appdesign_root {
+        width: 238px;
+        color: white;
+        display: block;
+        margin-bottom: 30px;
+        padding: 5px 15px 8px 15px;
+}
+.appdesign_root h2 {
+        margin: 0;
+        font-weight: 500;
+        font-size: 20px;
+}
+.appdesign_root span {
+        font-size: 11px;
+}
+.appdesign_root_blue {
+        background: linear-gradient(90deg, #41A9FA 4.01%, #94D2FF 98.73%);
+        border-left: 9px solid #0063B7;
+}
+.appdesign_root_red {
+        background: linear-gradient(90deg, #FF6C75 4.01%, #FF9074 98.73%);
+        border-left: 9px solid #FF4955;
+}
+.appdesign_root_orange {
+        background: linear-gradient(90deg, #FF8C56 4.01%, #FFB215 98.73%);
+        border-left: 9px solid #D25720;;
+}

@@ -1,13 +1,13 @@
 import React from 'react'
 import Projects from './Projects';
-import Calender from './Calender';
+import Nav from './Nav';
 
 
 const Main = () => {
         return (
-                <div style={{display: 'flex'}}>
+                <div>
+                        <Nav />
                         <Projects />
-                        <Calender />
                 </div>
         )
 }

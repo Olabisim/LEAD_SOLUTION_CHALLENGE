@@ -24,8 +24,3 @@ const Nav = () => {
 
 export default Nav;
 
-
-// <div>
-// <img src="../../bell.png" alt="bell" />
-// <img src="../../settings.png" alt="settings" />
-// </div>

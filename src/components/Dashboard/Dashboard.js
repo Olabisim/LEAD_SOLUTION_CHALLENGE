@@ -1,14 +1,14 @@
 import React from 'react'
 import Main from './Main';
-import Nav from './Nav';
+import Calender from './Calender';
 
 
 const Dashboard = () => {
         return (
                 // <div style={{paddingLeft: '25px'}}>
-                <div>
-                        <Nav />
+                <div style={{display: 'flex'}}>
                         <Main />
+                        <Calender />
                 </div>
         )
 }

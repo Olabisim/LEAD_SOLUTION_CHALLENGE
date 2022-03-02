@@ -1,13 +1,28 @@
 import React from 'react'
+import '../styles/appdesign.css'
 
 
-const Main = ({name, date}) => {
+const AppDesign = ({name, date, color}) => {
         return (
-                <div>
+                <div className={
+                        color === 'blue'
+                        ?
+                        `appdesign_root appdesign_root_blue`
+                        :
+                        color === 'red'
+                        ?
+                        `appdesign_root appdesign_root_red`
+                        :
+                        `appdesign_root appdesign_root_orange`
+
+                        }>
                         <h2>{name}</h2>
-                        <p>{date}</p>
+                        <span>{date}</span>
                 </div>
         )
 }
 
-export default Main;
+export default AppDesign;
+
+
+// <div className='appdesign_root appdesign_root_blue'>
