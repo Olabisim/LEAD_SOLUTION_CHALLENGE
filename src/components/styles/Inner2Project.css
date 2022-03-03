@@ -29,3 +29,33 @@
         padding-right: 15px;
 
 }
+
+.root_Inner2Project_1 {
+        display: flex;
+        justify-content: space-between;
+}
+.root_Inner2Project_1_2 {
+        display: flex;
+        position: relative;
+}
+.root_Inner2Project_1_2_1 img:nth-of-type(1){
+        position:absolute;
+        top: 22px;
+        /* right: 132px; */
+        left: 23px;
+}
+
+.root_Inner2Project_1_2_2{
+        padding-left: 10px;
+        padding-top: 5px;
+}
+
+.root_Inner2Project_1_2 h2{
+        margin: 0;
+        color: rgba(0, 0, 0, 0.5);
+        font-size: 21px;
+}
+
+.root_Inner2Project_1_2 p{
+        margin: 0;
+}
