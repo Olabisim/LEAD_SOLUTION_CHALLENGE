@@ -40,15 +40,15 @@ const SideBar = () => {
                         <br />
                         <div className='inner_root2'>   
                                 <ul>
-                                        <li>
+                                        <li key="onee">
                                                 <img src="../../menu_icon_1.png" alt="menu-cion" />
-                                                <a href="#">Dashboard</a>
+                                                <a href="#dash">Dashboard</a>
                                         </li>
 
                                         {menu_array.map((each, key) => (
-                                                <li>
+                                                <li key={`#elemetns${each.name}`}>
                                                         {key !== 6 && <img src={each.pic} alt="button" />}
-                                                        <a href="#">
+                                                        <a href={`#elemetns${each.name}`}>
                                                                 {each.name}
                                                         </a>
                                                         {

@@ -12,9 +12,9 @@ const Inner1Project = () => {
                                 <h3>Ongoing Projects</h3>
                                 <div>
                                         <ul>
-                                                <li><a href="#">Remaining</a></li>
-                                                <li className='active'><a href="#">Ongoing</a></li>
-                                                <li><a href="#">Completed</a></li>
+                                                <li><a href="#remaining">Remaining</a></li>
+                                                <li className='active'><a href="#ongoing">Ongoing</a></li>
+                                                <li><a href="#completed">Completed</a></li>
                                         </ul>
                                 </div>
                         </div>

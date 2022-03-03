@@ -50,7 +50,7 @@ const Inner2Project = () => {
                                 <ul className='root_Inner2Project_2_ul'>
                                         <li>day</li>
                                         <li>week</li>
-                                        <li class="active">month</li>
+                                        <li className="active">month</li>
                                 </ul>
                         </div>
                         <div>
