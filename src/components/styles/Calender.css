@@ -7,6 +7,7 @@
         display: flex;
         justify-content: flex-end;    
         margin-bottom: 20px;
+        position: relative;
 }
 
 .root_calender > div > span {
@@ -117,4 +118,15 @@
         font-size: 14px;
         padding-left: 30px;
     
+}
+
+.root_calender_1_drop {
+        
+        position: absolute;
+        width: 7px;
+        height: 7px;
+        left: 288px;
+        top: 20px;
+        background: #DF0000;
+        border-radius: 50%;
 }

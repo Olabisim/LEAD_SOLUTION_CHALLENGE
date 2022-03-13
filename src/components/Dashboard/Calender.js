@@ -7,7 +7,7 @@ const Calender = () => {
         return (
                 <div className='root_calender'>
                         <div className='root_calender_1'>
-                        
+                                <div className="root_calender_1_drop"></div>
                                 <img src="../../bell.png" alt="bell" />
                                 <img src="../../settings.png" alt="settings" />
                                 

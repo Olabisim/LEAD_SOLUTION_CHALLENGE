@@ -46,6 +46,13 @@
         padding: 10px 25px 10px 0px;
 }
 
+.inner_root_nav input:hover {
+        border: none;
+}
+.inner_root_nav input:focus {
+        border: none !important;
+}
+
 .inner_root_nav img{
         height: 13px;
 }
